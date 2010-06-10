@@ -14,7 +14,7 @@ void input_user(string &user){
 void input_pass(string &pass){
 	char ch[100];
 	initscr();
-	printw("Enter Password: ");
+	printw("Enter Password(Max 100): ");
 	noecho();
 	getstr(ch);
 	pass = ch;
